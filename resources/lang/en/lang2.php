@@ -1,0 +1,52 @@
+<?php
+
+return [
+	'db_newclass' => 'NEW CLASS',
+	'db_changepass' => 'Change Pass',
+	'db_students' => 'Students',
+	'db_insertnew' => 'Insert New Student',
+	'db_insertinterest' => 'Insert Student Interest',
+	'db_classes' => 'Classes',
+	'db_pass' => 'Password',
+	'db_npass' => 'New Password',
+	'db_cpass' => 'Confirm Password',
+	'db_classes2' => 'class',
+	'db_classopen' => 'Open',
+	'db_student2' => 'Students',
+	'db_youradd' => 'Yours',
+	'db_student3' => 'student',
+	'db_student4' => 'student',
+	'db_profile' => 'Profile',
+	//------------------------Student----------------------
+	'student_name' => 'Name',
+	'student_phone' => 'Phone',
+	'student_add' => 'Add student',
+	//------------------------Intersest--------------------
+	'interest_select1' => 'Select a student',
+	'interest_select2' => 'Add a new one',
+	'interest_selector' => 'or',
+	'interest_student_interesting' => 'Student interesting in',
+	'interest_major' => 'Majors',
+	'interest_course' => 'Courses',
+	'interest_schedule' => 'Schedules',
+	'interest_submit' => 'Submit',
+	//-----------------------Class---------------------------
+	'class_see_detail' => 'See Detail',
+	'class_opened' => 'Opened Class',
+	//-------------------------Title--------------------------
+	'tt_student_manage' => 'Student Manage',
+	'tt_student_interest' => 'Interest Manage',
+	//---------------------------Class detail----------------
+	'detail_no' => 'NO.',
+	'detail_name' => 'NAME',
+	'detail_phone' => 'PHONE',
+	'detail_added' => 'ADDED BY',
+	'detail_add' => 'Add',
+	'detail_std' => 'Student name',
+	'wrong_pass' => 'You have entered wrong pass!',
+	'change_pass' => 'You have changed your pass!',
+	'success_insert_std' => 'Successfully inserted student!',
+	'failed_insert_std' => 'This student is already exist!',
+	'success_add_std' => 'Successfully added student!',
+	'success_add_interest' => 'Successfully added interest!',
+];

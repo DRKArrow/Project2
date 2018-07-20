@@ -1,0 +1,60 @@
+
+.input-field input:focus + label {
+   color: #b39ddb !important;
+ }
+ /* label underline focus color */
+input:focus {
+   border-bottom: 1px solid #b39ddb !important;
+   box-shadow: 0 1px 0 0  !important
+ }
+.notify-circles{
+	height: 20px;
+  width: 20px;
+  background-color: #cc0000;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+  left: 28px;
+  top:12px;
+}
+.notify-numbers{
+	color: #FFFAFA;
+	margin: 2px;
+	font-weight: bold;
+	font-size: 10px;
+	text-align: center;
+	position: relative !important;
+	top: -26px;
+	left: 3px;
+	z-index: 2;
+}
+.notify-time{
+	margin-left: 665px;
+	opacity: 0.4;
+}
+.material-icons.nav{
+	position: relative !important;
+	top:5px;
+}
+.collection.dropdown-content{
+	position: absolute;
+	top:-65px;
+	left: -52px;
+	width: 800px !important;
+	background: transparent;
+}
+.user.dropdown-content{
+	position: absolute;
+	top:-65px;
+	width: 300px !important;
+}
+span.collection-textwrap{
+	width: 750px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.none{
+	display: none;
+}
